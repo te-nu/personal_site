@@ -1,0 +1,26 @@
+[debug] [2018-12-24T08:54:08.711Z] ----------------------------------------------------------------------
+[debug] [2018-12-24T08:54:08.714Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve --host 0.0.0.0
+[debug] [2018-12-24T08:54:08.714Z] CLI Version:   6.2.2
+[debug] [2018-12-24T08:54:08.714Z] Platform:      linux
+[debug] [2018-12-24T08:54:08.714Z] Node Version:  v10.10.0
+[debug] [2018-12-24T08:54:08.717Z] Time:          Mon Dec 24 2018 08:54:08 GMT+0000 (Coordinated Universal Time)
+[debug] [2018-12-24T08:54:08.717Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-12-24T08:54:08.731Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-12-24T08:54:08.731Z] > authorizing via signed-in user
+[debug] [2018-12-24T08:54:08.731Z] [iam] checking project personal-website-225708 for permissions ["firebase.projects.get"]
+[debug] [2018-12-24T08:54:08.734Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/personal-website-225708:testIamPermissions  
+
+[debug] [2018-12-24T08:54:09.518Z] <<< HTTP RESPONSE 200
+[debug] [2018-12-24T08:54:09.520Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/personal-website-225708  
+ 
+[debug] [2018-12-24T08:54:10.311Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/app'...
+[info] 
+[warn] ⚠  functions: Cannot start emulator. Error: Cannot find module '@google-cloud/functions-emulator/src/config'
+[debug] [2018-12-24T08:54:10.315Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/981593308917/clients/_:getWebAppConfig  
+ 
+[debug] [2018-12-24T08:54:10.926Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://0.0.0.0:5000
